@@ -1,0 +1,114 @@
+@font-face:{
+	src: url("Lato-Regular.ttf");
+	font-family: Lato;
+}
+body{
+	position: absolute;
+	width: 99%;
+	height: 97%;
+	background-image: url("pics/plaid.jpg");
+	font-family: Lato;
+}
+nav{
+	position: relative;
+	width: 101%;
+	height: 10%;
+	left: -8px;
+	top: -8px;
+	background: #212A34;
+}
+.head{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	margin-left: 5px;
+	margin-top: 4px;
+}
+.sub_head{
+	position: absolute;
+	top: 1.7px;
+	left: 300px;
+	color: #3385ff;
+}
+#head_img{
+	position: relative;
+	top: 7px;
+	width: 40px;
+	height: 40px;
+}
+section{
+	position: relative;
+	width: 101%;
+	height: 85.5%;
+	left: -8px;
+	margin-bottom: 8px;
+	background: white; 
+	background-image: url("pics/plaid.jpg");
+}
+.eng_to_sl{
+	position: relative;
+	width: 25%;
+	height: 80%;
+	background-color: white;
+	border-radius: 5px;
+	top: 50px;
+	left: 7%;
+	box-shadow: 0px 0px 10px; 
+}
+.sl_to_eng{
+	position: absolute;
+	width: 25%;
+	height: 80%;
+	background-color: white;
+	border-radius: 5px;
+	top: 50px;
+	left: 37%;
+	box-shadow: 0px 0px 10px; 
+}
+.sp_to_txt{
+	position: absolute;
+	width: 25%;
+	height: 80%;
+	background-color: white;
+	border-radius: 5px;
+	top: 50px;
+	left: 67%; 
+	box-shadow: 0px 0px 10px;
+	opacity: 0.6;
+}
+#image{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#sec_head{
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	margin: 60% 0% 0% 30%;
+	opacity: 1;
+
+}
+footer{
+	position: relative;
+	width: 101%;
+	height: 4%;
+	left: -8px;
+	top: 19px;
+	background: #212A34; 
+}
+.foot{
+	position: absolute;
+	color: white;
+	margin-left: 83.5%;
+	margin-top: 4px;
+}
+.sub_foot{
+	position: absolute;
+	top: 0px;
+	left: 153px;
+	color: #3385ff;
+}
