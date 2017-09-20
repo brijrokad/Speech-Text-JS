@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">    <style>
-      body {
-        font-family: 'Lato', serif;
-      }
-    </style>
 	<title>SLConverter</title>
 	<meta name="viewport" content="width = device-width, initail-scale = 1.0">
 	<link rel="stylesheet" type="text/css" href="frontstyle.css" />
 	<link rel="shortcut icon" href="pics/logo.png" />
-	<script type="text/javascript" src="frontjs.js"></script>>
+	<script type="text/javascript" src="frontjs.js"></script>
 </head>
 <body>
-	<section >
-		<div class="eng_to_sl"><div id="sec_head">English to Sign Language</div></div>
-		<div class="sl_to_eng"><div id="sec_head">Sign Language to English</div></div>
-		<div class="sp_to_txt" onclick="speechToText()"><div id="sec_head">Speech to Text</div></div>
-	</section>
+	<nav>
+		<div class="head"><img src="pics/logo.png" id="head_img" /> Sign Language <div class="sub_head">Converter</div></div>
+	</nav>
+		<div class="eng_to_sl">
+			<div id="image"></div>
+			<div id="sec_head">English to Sign Language</div>
+		</div>
+		<div class="sl_to_eng">
+			<div id="sec_head">Sign Language to English</div>
+		</div>
+		<div class="sp_to_txt" onclick="speechToText()">
+			<div id="image"></div>
+			<div id="sec_head1">Speech to Text</div>
+		</div>
 </body>
 </html>

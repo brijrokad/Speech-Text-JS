@@ -1,8 +1,14 @@
-
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
 body{
 	position: absolute;
 	width: 99%;
 	height: 97%;
+	background-image: url("pics/congruent_pentagon.png");
+    background-repeat: repeat-xy;
+    font-family: Lato;
 }
 nav{
 	position: relative;
@@ -22,7 +28,7 @@ nav{
 .sub_head{
 	position: absolute;
 	top: 1.7px;
-	left: 300px;
+	left: 310px;
 	color: #3385ff;
 }
 #head_img{
@@ -31,73 +37,63 @@ nav{
 	width: 40px;
 	height: 40px;
 }
-section{
-	position: relative;
-	width: 101%;
-	height: 85.5%;
-	left: -8px;
-	margin-bottom: 8px;
-	background: white; 
-}
 .eng_to_sl{
 	position: relative;
 	width: 25%;
 	height: 80%;
+	background-color: white;
 	border-radius: 5px;
-	top: 50px;
+	top: 5%;
 	left: 7%;
-	box-shadow: 0px 0px 10px; 
-	background-image: url("./pics/congruent_pentagon.png");
-    background-repeat: repeat-xy;
+	box-shadow: 0px 0px 10px;
+	background-image: url("pics/plaid.jpg");
+    background-repeat: repeat-xy; 
 }
 .sl_to_eng{
-	position: absolute;
+	position: relative;
 	width: 25%;
 	height: 80%;
 	background-color: white;
 	border-radius: 5px;
-	top: 50px;
+	top: -75%;
 	left: 37%;
 	box-shadow: 0px 0px 10px;
-
-	background-image: url("./pics/wood_pattern.png");
+	background-image: url("pics/wood_pattern.png");
     background-repeat: repeat-xy; 
 }
 .sp_to_txt{
-	position: absolute;
+	position: relative;
 	width: 25%;
 	height: 80%;
+	background-color: white;
 	border-radius: 5px;
-	top: 50px;
+	top: -155%;
 	left: 67%; 
 	box-shadow: 0px 0px 10px;
-	background-image: url("./pics/hypnotize.png");
-    background-repeat: repeat-xy;
+	background-image: url("pics/hypnotize.png");
+	background-repeat: repeat-xy;	
 }
 #image{
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
+	cursor: pointer;
 	overflow: hidden;
+	opacity: 0.8;
 }
 #sec_head{
 	position: absolute;
 	text-align: center;
 	font-size: 30px;
 	cursor: pointer;
-	margin: 60% 0% 0% 30%;
-	opacity: 1;
+	margin: 65% 0% 0% 5%;
+
 }
-.foot{
+#sec_head1{
 	position: absolute;
-	color: white;
-	margin-left: 83.5%;
-	margin-top: 4px;
-}
-.sub_foot{
-	position: absolute;
-	top: 0px;
-	left: 153px;
-	color: #3385ff;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	margin: 65% 0% 0% 20%;
 }
