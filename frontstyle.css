@@ -43,11 +43,12 @@ section{
 	position: relative;
 	width: 25%;
 	height: 80%;
-	background-color: white;
 	border-radius: 5px;
 	top: 50px;
 	left: 7%;
 	box-shadow: 0px 0px 10px; 
+	background-image: url("./pics/congruent_pentagon.png");
+    background-repeat: repeat-xy;
 }
 .sl_to_eng{
 	position: absolute;
@@ -57,18 +58,21 @@ section{
 	border-radius: 5px;
 	top: 50px;
 	left: 37%;
-	box-shadow: 0px 0px 10px; 
+	box-shadow: 0px 0px 10px;
+
+	background-image: url("./pics/wood_pattern.png");
+    background-repeat: repeat-xy; 
 }
 .sp_to_txt{
 	position: absolute;
 	width: 25%;
 	height: 80%;
-	background-color: white;
 	border-radius: 5px;
 	top: 50px;
 	left: 67%; 
 	box-shadow: 0px 0px 10px;
-	opacity: 0.6;
+	background-image: url("./pics/hypnotize.png");
+    background-repeat: repeat-xy;
 }
 #image{
 	position: absolute;
@@ -84,14 +88,6 @@ section{
 	cursor: pointer;
 	margin: 60% 0% 0% 30%;
 	opacity: 1;
-}
-footer{
-	position: relative;
-	width: 101%;
-	height: 4%;
-	left: -8px;
-	top: 19px;
-	background: #212A34; 
 }
 .foot{
 	position: absolute;
