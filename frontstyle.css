@@ -1,13 +1,8 @@
-@font-face:{
-	src: url("Lato-Regular.ttf");
-	font-family: Lato;
-}
+
 body{
 	position: absolute;
 	width: 99%;
 	height: 97%;
-	background-image: url("pics/plaid.jpg");
-	font-family: Lato;
 }
 nav{
 	position: relative;
@@ -43,7 +38,6 @@ section{
 	left: -8px;
 	margin-bottom: 8px;
 	background: white; 
-	background-image: url("pics/plaid.jpg");
 }
 .eng_to_sl{
 	position: relative;
@@ -90,7 +84,6 @@ section{
 	cursor: pointer;
 	margin: 60% 0% 0% 30%;
 	opacity: 1;
-
 }
 footer{
 	position: relative;
